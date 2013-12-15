@@ -25,9 +25,9 @@ public class HomeController {
     
     @RequestMapping
     public String index() {
-        return "index";
+        return "index.jsp";
     }
-        
+            
     @RequestMapping(value = "/messages", method = RequestMethod.GET)
     @ResponseBody
     public List<Message> getMessages() {
