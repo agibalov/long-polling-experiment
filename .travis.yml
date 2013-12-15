@@ -1,0 +1,6 @@
+deploy:
+  provider: heroku
+  api_key:
+    secure: TuHSxVgcLwXG2XKKIbPAVl9s2XzUkqJz8oZEOQ5B2Vn6kdWeZ5JKf/vG3aqfvYrWQUX5Zi1rxcNCyBLCKNitsf9ApjHs5reMTWh6tNSfrHtChWAbsIXFSJoEQIDLCvMkEu7JvnMvmVG+DOPDmwyn2sFLgwKnv9U04LHOjd6qmcA=
+  app: sleepy-plains-8380
+  strategy: git
